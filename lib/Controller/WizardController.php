@@ -63,7 +63,7 @@ class WizardController extends Controller {
 		$this->theming = $theming;
 		$this->groupManager = $groupManager;
 
-		$this->slides = explode(',', $this->config->getAppValue(Application::APP_ID, 'slides', 'video,values,apps,clients,final'));
+		$this->slides = explode(',', $this->config->getAppValue(Application::APP_ID, 'slides', 'values,clients'));
 	}
 
 	/**
@@ -83,7 +83,7 @@ class WizardController extends Controller {
 		$appStore = $this->config->getSystemValue('appstoreenabled', true);
 
 		$data = [
-			'desktop'      => $this->config->getSystemValue('customclient_desktop', $this->theming->getSyncClientUrl()),
+			'desktop'      => 'https://bitnext.app/download/',
 			'android'      => $this->config->getSystemValue('customclient_android', $this->theming->getAndroidClientUrl()),
 			'fdroid'       => $this->config->getSystemValue('customclient_fdroid', $this->theming->getFDroidClientUrl()),
 			'ios'          => $this->config->getSystemValue('customclient_ios', $this->theming->getiOSClientUrl()),

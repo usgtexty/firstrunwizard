@@ -31,7 +31,7 @@
 <div class="page" data-title="<?php p($l->t('A safe home for all your data')); ?>" data-subtitle="">
 	<div class="content content-values">
 		<p>
-			<?php p($l->t('Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know.')); ?>
+			<?php p($l->t('bitnext puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know.')); ?>
 		</p>
 
 		<ul id="wizard-values">
@@ -48,10 +48,5 @@
 				<h3><?php p($l->t('100%% Open Source & community-focused')); ?></h3>
 			</li>
 		</ul>
-
-		<p class="details-link"><a href="https://nextcloud.com" target="_blank" rel="noreferrer noopener"><?php p($l->t('Learn more about %s', [ $theme->getProductName() ])); ?></a></p>
-		<div style="text-align: center; color: var(--text-maxcontrast);">
-			<p><?php p($l->t('This Nextcloud is on version %s', [ \OC_Util::getVersionString() ])); ?></p>
-		</div>
 	</div>
 </div>
