@@ -46,6 +46,8 @@ OC.L10N.register(
     "Our easy to use desktop and mobile clients are available for all major platforms at zero cost!" : "Unsere einfach zu bedienenden Desktop und Mobile Clients sind für alle wichtigen Plattformen kostenlos verfügbar!",
     "Get the apps to sync your files" : "Lade die Apps zur Synchronisierung Deiner Daten herunter",
     "Desktop client" : "Desktop-Client",
+    "Android app on Google Play Store" : "Android-App im Google Play Store",
+    "Android app on F-Droid" : "Android-App bei F-Droid",
     "iOS app" : "iOS-App",
     "Connect your desktop apps to %s" : "Verbinde Deine Desktop-Anwendungen mit %s",
     "Connect your calendar" : "Verbinde Deinen Kalender ",
@@ -70,8 +72,8 @@ OC.L10N.register(
     "A safe home for all your data" : "Ein sicheres Zuhause für all Deine Daten",
     "Nextcloud puts your data at your fingertips, under your control. Store your documents, calendar, contacts and photos on a server in your company, at home, at one of our providers or in a data center you know." : "Nextcloud bringt all Deine Daten unter Deine Kontrolle. Speichere all Deine Dokumente, Kalender, Kontakte und Bilder auf einem Server in Deiner Firma, zu Hause, bei einem unserer Provider oder in einem Dir bekannten Datenzentrum.",
     "Host your data and files where you decide" : "Hoste Deine Daten und Dateien, wo Du es willst",
-    "Open Standards and Interoperability" : "Offene Standards und Interoperabilität",
-    "100%% Open Source & community-focused" : "100%% Open Source & Community-fokussiert",
+    "Open standards and interoperability" : "Offene Standards und Interoperabilität",
+    "100%% open source & community-focused" : "100%% Open Source & Community-fokussiert",
     "Learn more about %s" : "Erfahre mehr über %s",
     "This Nextcloud is on version %s" : "Diese Nextcloud läuft mit Version %s",
     "%s gives you access to your files wherever you are. Our easy to use desktop and mobile clients are available for all major platforms at zero cost." : "%s erlaubt Dir den Zugriff auf Deine Dateien, egal wo Du bist. Unser Desktop-Client und die mobilen Apps sind kostenfrei für alle wichtigen Plattformen verfügbar.",
@@ -84,6 +86,8 @@ OC.L10N.register(
     "Start using Nextcloud" : "Starte mit Nextcloud",
     "Find more than 100 apps in the Nextcloud app store to customize your cloud:" : "Finde mehr als 100 Apps im Nextcloud App Store um Deine Cloud anzupassen:",
     "Browse the app store" : "Durchsuche den App Store",
-    "Android app" : "Android-App"
+    "Android app" : "Android-App",
+    "Open Standards and Interoperability" : "Offene Standards und Interoperabilität",
+    "100%% Open Source & community-focused" : "100%% Open Source & Community-fokussiert"
 },
 "nplurals=2; plural=(n != 1);");
