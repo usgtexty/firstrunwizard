@@ -101,10 +101,10 @@ class WizardController extends Controller {
 		$slides[] = $this->staticSlide('page.final', $data);
 
 		return new JSONResponse([
-			'hasVideo' => in_array('video', $this->slides, true),
-			'slides' => array_values(array_filter($slides, function ($slide) {
-				return $slide !== null;
-			}))
+			'hasVideo' => false,
+			'slides' => [
+				$this->staticSlide('page.clients', $data),
+			]
 		]);
 	}
 
